@@ -29,7 +29,7 @@ $sql = $conexion->query("SELECT * FROM paises WHERE id = $id");
 
         while ($datos = $sql->fetch_object()) { ?>
 
-            <input type="text" class="form-control" name="id" id="id" value="<?= $datos->id ?>">
+            <input type="hidden" class="form-control" name="id" id="id" value="<?= $datos->id ?>">
 
             <div class="input-group input-group-lg mb-3">
                 <span class="input-group-text" id="nombrePais">Nombre</span>
