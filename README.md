@@ -1,3 +1,3 @@
 ```
-La bae de datos se encueentra en ka carpeta database
+La base de datos se encuentra en la carpeta database
 ```
